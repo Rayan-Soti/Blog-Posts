@@ -1,14 +1,1 @@
-<body>
-    <header>
-        <h1>Welcome to My Blog</h1>
-    </header>
-    <section id="description">
-        <p>Welcome to my blog where I share thoughts, stories, and ideas on various topics. Stay tuned for new posts!</p>
-    </section>
-    <main>
-        <article>
-            <h2>First Blog Post</h2>
-            <p>This is my first blog post! More coming soon.</p>
-        </article>
-    </main>
-</body>
+
