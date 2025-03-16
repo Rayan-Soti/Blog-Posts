@@ -1,0 +1,30 @@
+function addPost() {
+    // Get title and content values from the input fields
+    var title = document.getElementById('title').value;
+    var content = document.getElementById('content').value;
+
+    // If there's no title or content, do nothing
+    if (!title || !content) return;
+
+    // Create a new post element (article)
+    var newPost = document.createElement('article');
+
+    // Create a new title for the post
+    var postTitle = document.createElement('h2');
+    postTitle.textContent = title;
+
+    // Create a new content paragraph for the post
+    var postContent = document.createElement('p');
+    postContent.textContent = content;
+
+    // Add title and content to the post
+    newPost.appendChild(postTitle);
+    newPost.appendChild(postContent);
+
+    // Append the new post to the blog section
+    document.getElementById('blog-posts').appendChild(newPost);
+
+    // Clear the input fields
+    document.getElementById('title').value = '';
+    document.getElementById('content').value = '';
+}
